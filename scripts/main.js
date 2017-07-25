@@ -30,16 +30,17 @@ function makeObject(coffeeOrder, email){
 }
 
 
-JSON.parse()
 
 
+function getObject(){
 
-
-function() {
-
-	localStorage.getItem()
-
+	var obj = JSON.parse(localStorage.getItem("Coffee Orders"));
+	return obj
+	
 }
+
+getObject()
+
 
 
 
